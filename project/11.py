@@ -26,7 +26,7 @@ PREDICTOR_PATH = "C:\\Users\\Xs\\Desktop\\project\\shape_predictor_68_face_landm
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(PREDICTOR_PATH)
 
-
+###
 # COVER ='D:/360MoveData/Users/LYJ/Desktop/1.jpg'
 class MyFrame1 ( wx.Frame ):
     def __init__( self, parent ):
